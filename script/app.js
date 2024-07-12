@@ -140,3 +140,4 @@ function deleteData(url, id, card) {
 		.then((res) => res.json())
 		.then(() => card.remove());
 }
+
